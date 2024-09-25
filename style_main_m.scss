@@ -1,0 +1,124 @@
+// 900px 이하
+
+
+@media only screen and (max-width: 900px) {
+
+  body{
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+
+  .video_container{
+
+    right: -96px;
+
+    .main_face{
+    
+      .face_video{
+        width: 504px;
+        object-fit: cover; 
+      }
+    }
+  }  
+
+}
+
+// 430px 이하
+
+
+@media only screen and (max-width: 430px) {
+
+  body{
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .main_logo{
+    padding-top: 4px;
+
+    .logo_video{   
+      width: 96px;
+    }
+  }
+
+    .main_menu{
+      font-size: 12px;
+      padding-top: 4px;
+  
+      li{
+        cursor: pointer;
+        padding: (4px 16px 4px 16px);
+        border-radius: 16px;
+      }
+    }
+
+    .main_persona{
+      position: relative;
+      height: 100vh;
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding:64px 0px 80px 0px;
+      
+
+  .video_container{
+
+    right: -48px;
+
+    .main_face{
+    
+      .face_video{
+        width: 360px;
+        object-fit: cover; 
+      }
+    }
+  }  
+}
+
+.Featured_work{
+
+  .work_title{
+    padding-top: 64px;
+    font-size: 10vw;
+    font-weight: 600;
+    line-height: 11vw;
+  }
+
+  .work_img{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+
+    .work_img_first{
+      width: 100%
+    }
+
+    .work_img_second{
+      width: 100%;
+    }
+  }
+
+    .work_first{
+      margin-top: 24px;
+    }
+
+    .work_second{
+      margin-top: 56px;
+    }
+
+    .work_copy{
+
+      .copy_title{
+        font-size: 7vw;
+        font-weight: 600;
+      } 
+
+      .work_content{
+        font-size: 4vw;
+        font-weight: 500;
+        color: #888888;
+      }
+    }
+  }
+}
