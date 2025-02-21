@@ -156,6 +156,13 @@ li {
   color: #888888;
 }
 
+.copyright {
+  font-family: pretendard;
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 40px;
+}
+
 #scrollLock {
   position: fixed;
   width: 100%;
