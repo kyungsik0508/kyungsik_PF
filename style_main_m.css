@@ -44,7 +44,7 @@
     right: -48px;
   }
   .main_persona .video_container .main_face .face_video {
-    width: 360px;
+    width: 240px;
     -o-object-fit: cover;
        object-fit: cover;
   }
